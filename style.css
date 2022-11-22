@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1117;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    align-items: baseline;
+    height: 75px;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#header span {
+    font-size: 20px;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 700px;
+    width: 390px;
+    max-width: 390px;
+    margin: 0;
+}
+
+.result {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid lightblue;
+    font-size: 20px;
+}
+
+.top-btn-row {
+    display: flex;
+    gap: 30px;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    color: inherit;
+    border-style: none; 
+    border-radius: 50%;
+    background-color: grey;
+    width: 75px;
+    height: 75px;
+    padding: 0px;
+    margin: 0px;
+    flex-shrink: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.clear button {
+    border-radius: 5px;
+    height: 75px;
+    width: 180px;
+    color: red;
+}
+
+.operator button {
+    color: lightblue;
+}
+
+.operator.equals button {
+    background-color: lightblue;
+    color: #0d1117;
+}
+
+
+
