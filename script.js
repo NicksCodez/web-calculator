@@ -21,6 +21,7 @@ window.addEventListener('keydown', typeOnCalculator)
 
 
 function typeOnCalculator(e){
+    e.preventDefault();
     var operationStatus = checkInput(results.textContent);
         switch(e.key){
             case 'Shift':
